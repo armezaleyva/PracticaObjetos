@@ -16,13 +16,9 @@ namespace PrácticaObjetos {
 
         // Métodos
         // Definidos a través de funciones
-        public void cumplirAños() {
-            edad += 1;
-        }
+        public void cumplirAños() => edad += 1;
 
-        public void crecer(float cantidadCrecimiento) {
-            altura += cantidadCrecimiento;
-        }
+        public void crecer(float cantidadCrecimiento) => altura += cantidadCrecimiento;
 
     }
 }
